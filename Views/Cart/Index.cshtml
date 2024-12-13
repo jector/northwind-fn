@@ -1,0 +1,59 @@
+@model DiscountCartModel
+
+<div id="User" data-email="@User.Identity.Name" data-customer="@User.IsInRole("northwind-customer")"></div>
+@*<input type="hidden" id="contentId" data-id="@foreach(CartItem item in Model){@item.CustomerId}" />*@
+
+<ul style="display: none;" id="listId">
+  @foreach(CartItem item in Model.CartItems){<li data-id="@item.CustomerId"></li>}
+  <li data-id="0"></li>
+</ul>
+
+<div class="container">
+  <h2 class="mt-3"><i class="far fa-address-card"></i> Shopping Cart</h2>
+  <hr>
+  <div id="showDiv" class="row">
+    <div class="col-md-9">
+      <div id="cartMessage"></div>
+        <table id="cartTable" class="table table-bordered align-middle shadow-sm mb-5">
+          <thead>
+            <tr>
+              <th>Produc tName</th>
+              <th>Unit Price</th>
+              <th>Quantity</th>
+              <th>Total</th>
+              <th></th>
+          <tbody id="cart_rows" class="table-group-divider">
+          </tbody>
+        </table>
+        <div  class="container">
+          <div id="cartDiscount" class="row"></div>
+        </div>
+    </div>
+    <div class="col-md-3">
+      <h5>Order information</h5>
+      <hr>
+      <div id="shipDetails"></div>
+      <ul class="list-group list-group-flush" id="discountDetails"></ul>
+      <hr>
+      <div class="totalCart">Total: $<span id="cartTotal">0.00</span></div>
+      <div id="lastOrder"></div>
+      <button type="button" class="btn btn-primary mt-2 mb-4" id="checkout">Checkout</button>
+    </div>
+  </div>
+
+</div>
+
+
+@*
+trampas
+https://github.com/zhendrix3019/Northwind-Final-master/tree/main
+
+users
+teodoro@mail.com
+cornelia@mail.com
+gilbert@mail.com
+
+B@nanas1
+*@
+<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+<script src="../../cart.js"></script>

@@ -1,0 +1,43 @@
+.vscode
+bin
+obj
+Properties
+appsettings.json
+Migrations/20241210001727_Initial.cs
+Migrations/20241210001727_Initial.Designer.cs
+Migrations/20241211021313_FixOD.cs
+Migrations/20241211021313_FixOD.Designer.cs
+Migrations/20241211022429_FixODA.cs
+Migrations/20241211022429_FixODA.Designer.cs
+Migrations/20241211023201_FixODTA.cs
+Migrations/20241211023201_FixODTA.Designer.cs
+Migrations/20241212040354_FixOC.cs
+Migrations/20241212040354_FixOC.Designer.cs
+Migrations/20241212041151_FixOAG.cs
+Migrations/20241212041151_FixOAG.Designer.cs
+Migrations/20241212044814_FixOLT.cs
+Migrations/20241212044814_FixOLT.Designer.cs
+Migrations/DataContextModelSnapshot.cs
+Migrations/20241210001727_Initial.cs
+Migrations/20241210001727_Initial.Designer.cs
+Migrations/20241211021313_FixOD.cs
+Migrations/20241211021313_FixOD.Designer.cs
+Migrations/20241211022429_FixODA.cs
+Migrations/20241211022429_FixODA.Designer.cs
+Migrations/20241211023201_FixODTA.cs
+Migrations/20241211023201_FixODTA.Designer.cs
+Migrations/20241212040354_FixOC.cs
+Migrations/20241212040354_FixOC.Designer.cs
+Migrations/20241212041151_FixOAG.cs
+Migrations/20241212041151_FixOAG.Designer.cs
+Migrations/20241212044814_FixOLT.cs
+Migrations/20241212044814_FixOLT.Designer.cs
+Migrations/DataContextModelSnapshot.cs
+appsettings.Development.json
+Northwind.csproj
+northwind.sln
+Program.cs
+wwwroot/SELECT TOP (10) [OrderId].sql
+wwwroot/SELECT TOP (30) [OrderDetailId].sql
+wwwroot/SELECT TOP (10) [OrderId].sql
+wwwroot/SELECT TOP (30) [OrderDetailId].sql
