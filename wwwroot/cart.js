@@ -3,9 +3,6 @@ if (document.getElementById('User').dataset['customer'].toLowerCase() == "true")
 
   const tbody = document.querySelector('tbody');
 
-
-  
-
   document.addEventListener("DOMContentLoaded", function () {
     fetchCartProducts();
   });
